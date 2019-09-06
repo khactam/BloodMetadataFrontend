@@ -1,21 +1,34 @@
-# frontend
+##### Code assignment
 
 > Code assignment
+There are 2 folders in the project, one is frontend, one is backend. You need to serve them both before the app can work correctly.
 
-## Build Setup
+### Build Setup for backend
+``` bash
+
+# Navigate to backend
+cd backend
+
+# install dependencies
+npm install
+
+# serve with debug log at localhost:3030
+node index.js
+
+```
+
+### Build Setup for frontend
 
 ``` bash
+
+# Navigate to frontend
+cd frontend
+
 # install dependencies
 npm install
 
 # serve with hot reload at localhost:8080
 npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+You will be able to use the project under http://localhost:8080
